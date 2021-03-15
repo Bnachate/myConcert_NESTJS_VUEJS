@@ -9,7 +9,7 @@ import { BandModule } from './band/band.module';
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb+srv://brahim:OhtRgwNt2esaamL1@test.ifjqe.mongodb.net/myconcertdb?retryWrites=true&w=majority', { useNewUrlParser: true }),
+    MongooseModule.forRoot('mongodb+srv://brahim:@test.ifjqe.mongodb.net/myconcertdb?retryWrites=true&w=majority', { useNewUrlParser: true }),
     UserModule,
     HallModule,
     ConcertModule,
